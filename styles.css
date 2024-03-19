@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Cubano&display=swap');
+
+
+
+@font-face {
+    font-family: myFont;
+    src: url(TestFamily-Regular.otf);
+}
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cubano', sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #490850;
+    
+}
+
+.logo img {
+    max-height: 80px; /* Adjust as needed */
+    margin-left: 10px;
+}
+
+.nav-links .btn {
+    background-color: #E4B363;
+    margin-right: 10px;
+    color: #fff;
+    font-family: 'Cubano', sans-serif;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav-links .btn:hover{
+    background-color:  rgba(228, 179, 99, 0.8);
+}
+footer {
+    background-color: #490850;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.hero {
+    background-color: #4F5D75; /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 5rem;
+    margin-bottom: 20px;
+    right: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.hero button.big-btn {
+    background-color: #BA3F1D;
+    font-family: 'Cubano', sans-serif;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 40px; /* Adjust spacing from h1 */
+    margin-bottom: 20px; /* Adjust spacing from footer */
+}
+.hero button.big-btn:hover{
+    background-color: #E05E36;
+}
+
+
+.hero p {
+    font-size: 1.2rem;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Text color */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.card:hover {
+    background-color: #e0e0e0; /* Lighten the background color on hover */
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+}
